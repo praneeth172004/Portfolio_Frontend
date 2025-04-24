@@ -12,7 +12,7 @@ function Contact() {
     message: '',
   });
   const URL= import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
-  const handleSubmit = async (e) => {
+  async function handleSubmit(e:any) {
     e.preventDefault();
     setIsSending(true); // Show sending animation
 
@@ -30,7 +30,7 @@ function Contact() {
     }
   };
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e:any) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,

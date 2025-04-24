@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       
       {/* Main content with padding to prevent overlap with fixed navbar */}
-      <div className="pt-16"> {/* pt-16 adds padding-top to prevent content from being covered by the navbar */}
+      <div className="pt-10"> {/* pt-16 adds padding-top to prevent content from being covered by the navbar */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

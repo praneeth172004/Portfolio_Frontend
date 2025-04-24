@@ -11,9 +11,9 @@ function Navbar() {
   ];
 
   return (
-    <div className="w-full h-16 flex justify-center items-center px-4 fixed top-0 left-0 z-10 bg-gray-900">
+    <div className="w-full h-16 flex justify-center items-center  fixed top-0 left-0 z-10 bg-gray-900">
       <motion.div
-        className="text-white text-[15px] md:gap-4 gap-2 md:text-[18px] w-2/4 flex justify-evenly items-center md:h-[40px] h-[30px] rounded-full"
+        className="text-white text-[15px] md:gap-4 space-x-10 md:text-[18px] md:w-2/4 flex justify-evenly items-center md:h-[40px] h-[30px] rounded-full  w-full"
         animate={{ scale: 1, opacity: 1 }}
         initial={{ scale: 0, opacity: 0 }}
         transition={{ duration: 0.4, type: 'spring', bounce: 0.5 }}

@@ -157,7 +157,7 @@ function Contact() {
         </a>
 
         <a
-          href="https://twitter.com/your-profile"
+          href="https://x.com/Praneeth3119?t=QT5M5K_h6XIZMtAV-TdEFg&s=09"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-3xl hover:text-purple-600 transition duration-200"

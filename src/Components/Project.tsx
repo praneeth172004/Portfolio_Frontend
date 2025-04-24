@@ -7,23 +7,22 @@ function Project() {
       description:
         "A Discord bot that provides NSE/BSE stock data, IPO updates, company info, and trending stocks using the Indian Stock Market API.",
       techStack: ["Discord.js", "Node.js", "Express", "Stock Market API"],
-      githubLink: "https://github.com/your-username/discord-stock-bot", // replace with your GitHub link
+      githubLink: "https://github.com/praneeth172004/Discord_Stock_details_bot", // replace with your GitHub link
       liveLink: "", // optional live link
     },
     {
       title: "Paste App",
       description:
         "A pastebin-style app using React and LocalStorage to store, create, and manage snippets of text easily in the browser.",
-      techStack: ["React", "TailwindCSS", "LocalStorage"],
-      githubLink: "https://github.com/your-username/paste-app", // replace with your GitHub link
-      liveLink: "", // optional live link
+      techStack: ["React", "TailwindCSS", "LocalStorage"], // replace with your GitHub link
+      liveLink: "https://react-project-bice-xi.vercel.app/", 
     },
     {
       title: "Todo App",
       description:
         "A full-stack todo application with user authentication. Built with Node.js, Express, MongoDB, JWT, and bcrypt. Supports login, signup, and CRUD on todos.",
       techStack: ["Node.js", "Express", "MongoDB", "React", "JWT", "bcrypt"],
-      githubLink: "https://github.com/your-username/todo-app", // replace with your GitHub link
+      githubLink: "https://github.com/praneeth172004/Todo", // replace with your GitHub link
       liveLink: "", // optional live link
     },
   ];

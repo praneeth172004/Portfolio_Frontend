@@ -31,7 +31,7 @@ function About() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        {["Java", "React", "Node.js", "Express", "MongoDB", "TailwindCSS"].map((tech, i) => (
+        {["Java", "React", "Node.js", "Express", "MongoDB", "TailwindCSS"].map((tech) => (
           <motion.div
             key={tech}
             className="px-4 py-2 bg-gray-800 rounded-full text-sm font-medium shadow-sm"
